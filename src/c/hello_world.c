@@ -53,6 +53,15 @@ static void cat_window_load(Window *window){
   status_bar_layer_set_colors(s_status_bar, GColorBlack, GColorWhite);
   
   
+static GBitmap *s_bitmap;
+s_bitmap = gbitmap_create_with_resource(RESOURCE_ID_A);
+static BitmapLayer *s_bitmap_layer;
+s_bitmap_layer = bitmap_layer_create(GRect(30, 30, 15, 15));
+bitmap_layer_set_compositing_mode(s_bitmap_layer, GCompOpSet);
+bitmap_layer_set_bitmap(s_bitmap_layer, s_bitmap);
+layer_add_child(window_layer, bitmap_layer_get_layer(s_bitmap_layer));
+  /*
+  
   //create menu layer
   s_menu_layer = menu_layer_create(bounds);
   // Let it receive click events
@@ -68,6 +77,7 @@ static void cat_window_load(Window *window){
   
   // Add the layers to the window
   layer_add_child(window_get_root_layer(s_cat_window), menu_layer_get_layer(s_menu_layer));
+  */
   layer_add_child(window_get_root_layer(s_cat_window), status_bar_layer_get_layer(s_status_bar));
   
 }
