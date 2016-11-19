@@ -1,0 +1,24 @@
+{
+    "author": "vbodell@me.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "firstprogram",
+    "pebble": {
+        "displayName": "FirstProgram",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite"
+        ],
+        "uuid": "2cd6e62e-9fe1-4e3d-b769-823b96b91ef2",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
