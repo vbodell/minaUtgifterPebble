@@ -1,0 +1,61 @@
+{
+    "targetPlatforms": [
+        "aplite"
+    ], 
+    "projectType": "native", 
+    "name": "Utgifter", 
+    "messageKeys": {}, 
+    "companyName": "vBodell", 
+    "enableMultiJS": true, 
+    "versionLabel": "1.0", 
+    "capabilities": [], 
+    "sdkVersion": "3", 
+    "appKeys": {}, 
+    "longName": "Utgifter", 
+    "displayName": "Utgifter", 
+    "shortName": "Utgifter", 
+    "watchapp": {
+        "watchface": false
+    }, 
+    "resources": {
+        "media": [
+            {
+                "menuIcon": true, 
+                "type": "png", 
+                "name": "WALLET_ICON", 
+                "file": "images/wallet.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "UP_ICON", 
+                "file": "images/list.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "CHECK_ICON", 
+                "file": "images/plus.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "DOWN_ICON", 
+                "file": "images/plus.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "DOWNA_ICON", 
+                "file": "images/down.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "UPA_ICON", 
+                "file": "images/up.png"
+            }
+        ]
+    }, 
+    "uuid": "2cd6e62e-9fe1-4e3d-b769-823b96b91ef2"
+}

@@ -1,15 +1,52 @@
 {
-    "author": "vbodell@me.com",
+    "author": "vBodell",
     "dependencies": {},
     "keywords": [],
-    "name": "firstprogram",
+    "name": "Utgifter",
     "pebble": {
-        "displayName": "FirstProgram",
+        "displayName": "Utgifter",
         "enableMultiJS": true,
         "messageKeys": [],
         "projectType": "native",
         "resources": {
-            "media": []
+            "media": [
+                 {
+                    "file": "images/wallet.png",
+                    "menuIcon": true,
+                    "name": "WALLET_ICON",
+                    "type": "png"
+                },
+                 {
+                    "file": "images/list.png",
+                    "name": "UP_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/plus.png",
+                    "name": "CHECK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                 {
+                    "file": "images/plus.png",
+                    "name": "DOWN_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/down.png",
+                    "name": "DOWNA_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/up.png",
+                    "name": "UPA_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
         },
         "sdkVersion": "3",
         "targetPlatforms": [
