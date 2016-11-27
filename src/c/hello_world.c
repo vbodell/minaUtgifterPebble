@@ -183,7 +183,6 @@ static void cat_window_load(Window *window)
 {
   Layer *window_layer = window_get_root_layer(s_cat_window);
   GRect bounds = layer_get_bounds(window_layer);
-
   //create menu layer
   s_menu_layer = menu_layer_create(bounds);
   // Let it receive click events
@@ -199,6 +198,8 @@ static void cat_window_load(Window *window)
 
   // Add the layers to the window
   layer_add_child(window_get_root_layer(s_cat_window), menu_layer_get_layer(s_menu_layer));
+  layer_add_child(window_get_root_layer(s_cat_window), status_bar_layer_get_layer(s_status_bar));
+  
 }
 
 static void cat_window_unload(Window *window)

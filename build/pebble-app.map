@@ -1174,7 +1174,7 @@ LOAD /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none
  .note.gnu.build-id
                 0x0000000000000084       0x24 linker stubs
 
-.text           0x00000000000000a8      0xb6b
+.text           0x00000000000000a8      0xb8b
  *(.text)
  .text          0x00000000000000a8       0x14 /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
  *(.text.*)
@@ -1201,276 +1201,276 @@ LOAD /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none
                 0x0000000000000118       0x2c src/c/hello_world.c.9.o
  .text.list_window_load
                 0x0000000000000144       0xac src/c/hello_world.c.9.o
- .text.cat_window_load
-                0x00000000000001f0       0xac src/c/hello_world.c.9.o
  .text.draw_row_callback
-                0x000000000000029c       0x1c src/c/hello_world.c.9.o
+                0x00000000000001f0       0x1c src/c/hello_world.c.9.o
  .text.number_window_unload
-                0x00000000000002b8       0x30 src/c/hello_world.c.9.o
+                0x000000000000020c       0x30 src/c/hello_world.c.9.o
  .text.number_window_load
-                0x00000000000002e8      0x1a0 src/c/hello_world.c.9.o
+                0x000000000000023c      0x1a0 src/c/hello_world.c.9.o
  .text.action_bar_click_config_provider
-                0x0000000000000488       0x24 src/c/hello_world.c.9.o
+                0x00000000000003dc       0x24 src/c/hello_world.c.9.o
  .text.price_click_config_provider
-                0x00000000000004ac       0x34 src/c/hello_world.c.9.o
+                0x0000000000000400       0x34 src/c/hello_world.c.9.o
  .text.price_add_handler
-                0x00000000000004e0       0x98 src/c/hello_world.c.9.o
+                0x0000000000000434       0x98 src/c/hello_world.c.9.o
  .text.main_window_unload
-                0x0000000000000578       0x4c src/c/hello_world.c.9.o
+                0x00000000000004cc       0x4c src/c/hello_world.c.9.o
  .text.main_window_load
-                0x00000000000005c4       0x98 src/c/hello_world.c.9.o
- .text.itoa     0x000000000000065c       0x58 src/c/hello_world.c.9.o
-                0x000000000000065c                itoa
+                0x0000000000000518       0x98 src/c/hello_world.c.9.o
+ .text.cat_window_load
+                0x00000000000005b0       0xcc src/c/hello_world.c.9.o
+ .text.itoa     0x000000000000067c       0x58 src/c/hello_world.c.9.o
+                0x000000000000067c                itoa
  .text.list_draw_row_callback
-                0x00000000000006b4       0x38 src/c/hello_world.c.9.o
+                0x00000000000006d4       0x38 src/c/hello_world.c.9.o
  .text.price_dec_handler
-                0x00000000000006ec       0x60 src/c/hello_world.c.9.o
+                0x000000000000070c       0x60 src/c/hello_world.c.9.o
  .text.price_inc_handler
-                0x000000000000074c       0x3c src/c/hello_world.c.9.o
+                0x000000000000076c       0x3c src/c/hello_world.c.9.o
  .text.startup.main
-                0x0000000000000788      0x198 src/c/hello_world.c.9.o
-                0x0000000000000788                main
+                0x00000000000007a8      0x198 src/c/hello_world.c.9.o
+                0x00000000000007a8                main
  .text.app_event_loop
-                0x0000000000000920        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000920                app_event_loop
- .text.app_log  0x000000000000092c        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x000000000000092c                app_log
+                0x0000000000000940        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000940                app_event_loop
+ .text.app_log  0x000000000000094c        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x000000000000094c                app_log
  .text.fonts_get_system_font
-                0x0000000000000938        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000938                fonts_get_system_font
+                0x0000000000000958        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000958                fonts_get_system_font
  .text.gbitmap_create_with_resource
-                0x0000000000000944        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000944                gbitmap_create_with_resource
+                0x0000000000000964        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000964                gbitmap_create_with_resource
  .text.gbitmap_destroy
-                0x0000000000000950        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000950                gbitmap_destroy
+                0x0000000000000970        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000970                gbitmap_destroy
  .text.layer_add_child
-                0x000000000000095c        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x000000000000095c                layer_add_child
+                0x000000000000097c        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x000000000000097c                layer_add_child
  .text.layer_get_bounds
-                0x0000000000000968        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000968                layer_get_bounds
- .text.memset   0x0000000000000974        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000974                memset
+                0x0000000000000988        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000988                layer_get_bounds
+ .text.memset   0x0000000000000994        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000994                memset
  .text.menu_cell_basic_draw
-                0x0000000000000980        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000980                menu_cell_basic_draw
+                0x00000000000009a0        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x00000000000009a0                menu_cell_basic_draw
  .text.menu_layer_destroy
-                0x000000000000098c        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x000000000000098c                menu_layer_destroy
+                0x00000000000009ac        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x00000000000009ac                menu_layer_destroy
  .text.menu_layer_get_layer
-                0x0000000000000998        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000998                menu_layer_get_layer
+                0x00000000000009b8        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x00000000000009b8                menu_layer_get_layer
  .text.menu_layer_get_selected_index
-                0x00000000000009a4        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x00000000000009a4                menu_layer_get_selected_index
+                0x00000000000009c4        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x00000000000009c4                menu_layer_get_selected_index
  .text.menu_layer_set_click_config_onto_window
-                0x00000000000009b0        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x00000000000009b0                menu_layer_set_click_config_onto_window
+                0x00000000000009d0        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x00000000000009d0                menu_layer_set_click_config_onto_window
  .text.persist_exists
-                0x00000000000009bc        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x00000000000009bc                persist_exists
+                0x00000000000009dc        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x00000000000009dc                persist_exists
  .text.persist_read_int
-                0x00000000000009c8        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x00000000000009c8                persist_read_int
+                0x00000000000009e8        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x00000000000009e8                persist_read_int
  .text.persist_write_int
-                0x00000000000009d4        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x00000000000009d4                persist_write_int
+                0x00000000000009f4        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x00000000000009f4                persist_write_int
  .text.window_create
-                0x00000000000009e0        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x00000000000009e0                window_create
+                0x0000000000000a00        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000a00                window_create
  .text.window_destroy
-                0x00000000000009ec        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x00000000000009ec                window_destroy
+                0x0000000000000a0c        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000a0c                window_destroy
  .text.window_get_root_layer
-                0x00000000000009f8        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x00000000000009f8                window_get_root_layer
+                0x0000000000000a18        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000a18                window_get_root_layer
  .text.window_set_window_handlers
-                0x0000000000000a04        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000a04                window_set_window_handlers
+                0x0000000000000a24        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000a24                window_set_window_handlers
  .text.window_stack_pop
-                0x0000000000000a10        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000a10                window_stack_pop
+                0x0000000000000a30        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000a30                window_stack_pop
  .text.window_stack_push
-                0x0000000000000a1c        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000a1c                window_stack_push
+                0x0000000000000a3c        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000a3c                window_stack_push
  .text.window_single_click_subscribe
-                0x0000000000000a28        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000a28                window_single_click_subscribe
+                0x0000000000000a48        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000a48                window_single_click_subscribe
  .text.window_single_repeating_click_subscribe
-                0x0000000000000a34        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000a34                window_single_repeating_click_subscribe
+                0x0000000000000a54        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000a54                window_single_repeating_click_subscribe
  .text.persist_read_data
-                0x0000000000000a40        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000a40                persist_read_data
+                0x0000000000000a60        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000a60                persist_read_data
  .text.persist_write_data
-                0x0000000000000a4c        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000a4c                persist_write_data
+                0x0000000000000a6c        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000a6c                persist_write_data
  .text.menu_layer_create
-                0x0000000000000a58        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000a58                menu_layer_create
+                0x0000000000000a78        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000a78                menu_layer_create
  .text.action_bar_layer_add_to_window
-                0x0000000000000a64        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000a64                action_bar_layer_add_to_window
+                0x0000000000000a84        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000a84                action_bar_layer_add_to_window
  .text.action_bar_layer_create
-                0x0000000000000a70        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000a70                action_bar_layer_create
+                0x0000000000000a90        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000a90                action_bar_layer_create
  .text.action_bar_layer_destroy
-                0x0000000000000a7c        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000a7c                action_bar_layer_destroy
+                0x0000000000000a9c        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000a9c                action_bar_layer_destroy
  .text.action_bar_layer_set_click_config_provider
-                0x0000000000000a88        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000a88                action_bar_layer_set_click_config_provider
+                0x0000000000000aa8        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000aa8                action_bar_layer_set_click_config_provider
  .text.action_bar_layer_set_icon
-                0x0000000000000a94        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000a94                action_bar_layer_set_icon
+                0x0000000000000ab4        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000ab4                action_bar_layer_set_icon
  .text.text_layer_create
-                0x0000000000000aa0        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000aa0                text_layer_create
+                0x0000000000000ac0        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000ac0                text_layer_create
  .text.text_layer_destroy
-                0x0000000000000aac        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000aac                text_layer_destroy
+                0x0000000000000acc        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000acc                text_layer_destroy
  .text.text_layer_get_layer
-                0x0000000000000ab8        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000ab8                text_layer_get_layer
+                0x0000000000000ad8        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000ad8                text_layer_get_layer
  .text.text_layer_set_background_color
-                0x0000000000000ac4        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000ac4                text_layer_set_background_color
+                0x0000000000000ae4        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000ae4                text_layer_set_background_color
  .text.text_layer_set_font
-                0x0000000000000ad0        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000ad0                text_layer_set_font
+                0x0000000000000af0        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000af0                text_layer_set_font
  .text.text_layer_set_overflow_mode
-                0x0000000000000adc        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000adc                text_layer_set_overflow_mode
+                0x0000000000000afc        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000afc                text_layer_set_overflow_mode
  .text.text_layer_set_text
-                0x0000000000000ae8        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000ae8                text_layer_set_text
+                0x0000000000000b08        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000b08                text_layer_set_text
  .text.text_layer_set_text_alignment
-                0x0000000000000af4        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000af4                text_layer_set_text_alignment
+                0x0000000000000b14        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000b14                text_layer_set_text_alignment
  .text.text_layer_set_text_color
-                0x0000000000000b00        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000b00                text_layer_set_text_color
+                0x0000000000000b20        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000b20                text_layer_set_text_color
  .text.menu_layer_set_callbacks
-                0x0000000000000b0c        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000b0c                menu_layer_set_callbacks
+                0x0000000000000b2c        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000b2c                menu_layer_set_callbacks
  .text.status_bar_layer_create
-                0x0000000000000b18        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000b18                status_bar_layer_create
+                0x0000000000000b38        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000b38                status_bar_layer_create
  .text.status_bar_layer_destroy
-                0x0000000000000b24        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000b24                status_bar_layer_destroy
+                0x0000000000000b44        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000b44                status_bar_layer_destroy
  .text.status_bar_layer_get_layer
-                0x0000000000000b30        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000b30                status_bar_layer_get_layer
+                0x0000000000000b50        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000b50                status_bar_layer_get_layer
  .text.status_bar_layer_set_colors
-                0x0000000000000b3c        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
-                0x0000000000000b3c                status_bar_layer_set_colors
+                0x0000000000000b5c        0xc /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+                0x0000000000000b5c                status_bar_layer_set_colors
  *(.rodata)
- .rodata        0x0000000000000b48       0x10 src/c/hello_world.c.9.o
+ .rodata        0x0000000000000b68       0x10 src/c/hello_world.c.9.o
  *(.rodata*)
  .rodata.str1.1
-                0x0000000000000b58       0xbb src/c/hello_world.c.9.o
+                0x0000000000000b78       0xbb src/c/hello_world.c.9.o
                                          0xbd (size before relaxing)
 
-.glue_7         0x0000000000000c14        0x0
+.glue_7         0x0000000000000c34        0x0
  .glue_7        0x0000000000000000        0x0 linker stubs
 
-.glue_7t        0x0000000000000c14        0x0
+.glue_7t        0x0000000000000c34        0x0
  .glue_7t       0x0000000000000000        0x0 linker stubs
 
-.vfp11_veneer   0x0000000000000c14        0x0
+.vfp11_veneer   0x0000000000000c34        0x0
  .vfp11_veneer  0x0000000000000000        0x0 linker stubs
 
-.v4_bx          0x0000000000000c14        0x0
+.v4_bx          0x0000000000000c34        0x0
  .v4_bx         0x0000000000000000        0x0 linker stubs
 
-.iplt           0x0000000000000c14        0x0
+.iplt           0x0000000000000c34        0x0
  .iplt          0x0000000000000000        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.rel.dyn        0x0000000000000c14        0x0
+.rel.dyn        0x0000000000000c34        0x0
  .rel.iplt      0x0000000000000000        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
  .rel.got       0x0000000000000000        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.data           0x0000000000000c14       0x28
+.data           0x0000000000000c34       0x28
  *(.data)
- .data          0x0000000000000c14        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
- .data          0x0000000000000c14        0x4 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
-                0x0000000000000c14                __dso_handle
- .data          0x0000000000000c18        0x0 src/c/hello_world.c.9.o
- .data          0x0000000000000c18        0x0 src/c/testing.c.9.o
- .data          0x0000000000000c18        0x0 aplite/appinfo.auto.c.9.o
- .data          0x0000000000000c18        0x0 aplite/src/resource_ids.auto.c.9.o
- .data          0x0000000000000c18        0x0 /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
- .data          0x0000000000000c18        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
- .data          0x0000000000000c18        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+ .data          0x0000000000000c34        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+ .data          0x0000000000000c34        0x4 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+                0x0000000000000c34                __dso_handle
+ .data          0x0000000000000c38        0x0 src/c/hello_world.c.9.o
+ .data          0x0000000000000c38        0x0 src/c/testing.c.9.o
+ .data          0x0000000000000c38        0x0 aplite/appinfo.auto.c.9.o
+ .data          0x0000000000000c38        0x0 aplite/src/resource_ids.auto.c.9.o
+ .data          0x0000000000000c38        0x0 /Users/victorbodell/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmp7jpKUopebble.o)
+ .data          0x0000000000000c38        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .data          0x0000000000000c38        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
  *(.data.*)
  .data.rel.local.cats
-                0x0000000000000c18       0x24 src/c/hello_world.c.9.o
-                0x0000000000000c18                cats
+                0x0000000000000c38       0x24 src/c/hello_world.c.9.o
+                0x0000000000000c38                cats
 
-.igot.plt       0x0000000000000c3c        0x0
+.igot.plt       0x0000000000000c5c        0x0
  .igot.plt      0x0000000000000000        0x0 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.got            0x0000000000000c3c        0x8
- .got           0x0000000000000c3c        0x8 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+.got            0x0000000000000c5c        0x8
+ .got           0x0000000000000c5c        0x8 /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.got.plt        0x0000000000000c44        0xc
- .got.plt       0x0000000000000c44        0xc /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
-                0x0000000000000c44                _GLOBAL_OFFSET_TABLE_
+.got.plt        0x0000000000000c64        0xc
+ .got.plt       0x0000000000000c64        0xc /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+                0x0000000000000c64                _GLOBAL_OFFSET_TABLE_
 
-.bss            0x0000000000000c50       0x98
+.bss            0x0000000000000c70       0x98
  *(.bss)
  *(.bss.*)
  .bss.s_action_bar
-                0x0000000000000c50        0x4 src/c/hello_world.c.9.o
+                0x0000000000000c70        0x4 src/c/hello_world.c.9.o
  .bss.pris_layer
-                0x0000000000000c54        0x4 src/c/hello_world.c.9.o
+                0x0000000000000c74        0x4 src/c/hello_world.c.9.o
  .bss.s_price_down_bitmap
-                0x0000000000000c58        0x4 src/c/hello_world.c.9.o
+                0x0000000000000c78        0x4 src/c/hello_world.c.9.o
  .bss.list_layer
-                0x0000000000000c5c        0x4 src/c/hello_world.c.9.o
+                0x0000000000000c7c        0x4 src/c/hello_world.c.9.o
  .bss.s_menu_layer
-                0x0000000000000c60        0x4 src/c/hello_world.c.9.o
- .bss.price_int
-                0x0000000000000c64        0x4 src/c/hello_world.c.9.o
- .bss.s_price_up_bitmap
-                0x0000000000000c68        0x4 src/c/hello_world.c.9.o
- .bss.buff.7499
-                0x0000000000000c6c       0x14 src/c/hello_world.c.9.o
- .bss.s_number_window
                 0x0000000000000c80        0x4 src/c/hello_world.c.9.o
- .bss.s_main_window
+ .bss.price_int
                 0x0000000000000c84        0x4 src/c/hello_world.c.9.o
- .bss.s_status_bar
+ .bss.s_price_up_bitmap
                 0x0000000000000c88        0x4 src/c/hello_world.c.9.o
- .bss.s_list_window
-                0x0000000000000c8c        0x4 src/c/hello_world.c.9.o
- .bss.s_price_layer
-                0x0000000000000c90        0x4 src/c/hello_world.c.9.o
- .bss.s_up_bitmap
-                0x0000000000000c94        0x4 src/c/hello_world.c.9.o
- .bss.expense_size
-                0x0000000000000c98        0x1 src/c/hello_world.c.9.o
-                0x0000000000000c98                expense_size
- *fill*         0x0000000000000c99        0x3 
- .bss.s_price_check_bitmap
-                0x0000000000000c9c        0x4 src/c/hello_world.c.9.o
- .bss.s_cat_window
+ .bss.buff.7499
+                0x0000000000000c8c       0x14 src/c/hello_world.c.9.o
+ .bss.s_number_window
                 0x0000000000000ca0        0x4 src/c/hello_world.c.9.o
- .bss.s_down_bitmap
+ .bss.s_main_window
                 0x0000000000000ca4        0x4 src/c/hello_world.c.9.o
- .bss.s_price_action_bar
+ .bss.s_status_bar
                 0x0000000000000ca8        0x4 src/c/hello_world.c.9.o
- .bss.expense_row_size
-                0x0000000000000cac        0x1 src/c/hello_world.c.9.o
-                0x0000000000000cac                expense_row_size
- *fill*         0x0000000000000cad        0x3 
- .bss.s_check_bitmap
+ .bss.s_list_window
+                0x0000000000000cac        0x4 src/c/hello_world.c.9.o
+ .bss.s_price_layer
                 0x0000000000000cb0        0x4 src/c/hello_world.c.9.o
- COMMON         0x0000000000000cb4       0x34 src/c/hello_world.c.9.o
-                0x0000000000000cb4                expense_arr
-                0x0000000000000ce4                price
+ .bss.s_up_bitmap
+                0x0000000000000cb4        0x4 src/c/hello_world.c.9.o
+ .bss.expense_size
+                0x0000000000000cb8        0x1 src/c/hello_world.c.9.o
+                0x0000000000000cb8                expense_size
+ *fill*         0x0000000000000cb9        0x3 
+ .bss.s_price_check_bitmap
+                0x0000000000000cbc        0x4 src/c/hello_world.c.9.o
+ .bss.s_cat_window
+                0x0000000000000cc0        0x4 src/c/hello_world.c.9.o
+ .bss.s_down_bitmap
+                0x0000000000000cc4        0x4 src/c/hello_world.c.9.o
+ .bss.s_price_action_bar
+                0x0000000000000cc8        0x4 src/c/hello_world.c.9.o
+ .bss.expense_row_size
+                0x0000000000000ccc        0x1 src/c/hello_world.c.9.o
+                0x0000000000000ccc                expense_row_size
+ *fill*         0x0000000000000ccd        0x3 
+ .bss.s_check_bitmap
+                0x0000000000000cd0        0x4 src/c/hello_world.c.9.o
+ COMMON         0x0000000000000cd4       0x34 src/c/hello_world.c.9.o
+                0x0000000000000cd4                expense_arr
+                0x0000000000000d04                price
 
 DISCARD
  libc.a(*)
@@ -1509,10 +1509,10 @@ OUTPUT(/Users/victorbodell/terminal/git/minaUtgifterPebble/build/aplite/pebble-a
  .comment       0x0000000000000000       0x4f aplite/src/resource_ids.auto.c.9.o
  .comment       0x0000000000000000       0x4f /usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
 
-.debug_info     0x0000000000000000     0x1fc6
- .debug_info    0x0000000000000000     0x1bd1 src/c/hello_world.c.9.o
- .debug_info    0x0000000000001bd1      0x31a aplite/appinfo.auto.c.9.o
- .debug_info    0x0000000000001eeb       0xdb aplite/src/resource_ids.auto.c.9.o
+.debug_info     0x0000000000000000     0x1fec
+ .debug_info    0x0000000000000000     0x1bf7 src/c/hello_world.c.9.o
+ .debug_info    0x0000000000001bf7      0x31a aplite/appinfo.auto.c.9.o
+ .debug_info    0x0000000000001f11       0xdb aplite/src/resource_ids.auto.c.9.o
 
 .debug_abbrev   0x0000000000000000      0x45b
  .debug_abbrev  0x0000000000000000      0x379 src/c/hello_world.c.9.o
